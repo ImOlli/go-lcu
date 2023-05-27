@@ -6,6 +6,12 @@ This library automatically retrieves the port and auth-token for the LCU(League 
 
 > **Important!** This library currently only works on windows.
 
+## Install
+
+```shell
+go get github.com/ImOlli/go-lcu
+```
+
 ## Usage
 
 ### Get port and auth-token of LeagueClient
@@ -14,7 +20,7 @@ This library automatically retrieves the port and auth-token for the LCU(League 
 package main
 
 import (
-	"github.com/cuzimolli/lcu"
+	"github.com/ImOlli/go-lcu/lcu"
 	"log"
 )
 
@@ -43,7 +49,7 @@ create a reverse proxy. This proxy runs then under http and the specified hostna
 package main
 
 import (
-	"go-lcu/proxy"
+	"github.com/ImOlli/go-lcu/proxy"
 	"log"
 )
 
