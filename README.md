@@ -43,7 +43,8 @@ func main() {
 ### Create Proxy
 
 If you don't want to use SSL and import the self-signed certificate of the league client you can use the proxy method to
-create a reverse proxy. This proxy runs then under http and the specified hostname.
+create a reverse proxy. The proxy also automatically adds the authentication header, so you don't have to add it yourself.
+This proxy runs then under http and the specified hostname.
 
 ```go
 package main
