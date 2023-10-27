@@ -1,4 +1,5 @@
 # GO-LCU
+[![Go Reference](https://pkg.go.dev/badge/github.com/ImOlli/go-lcu.svg)](https://pkg.go.dev/github.com/ImOlli/go-lcu)
 
 This library automatically retrieves the port and auth-token for the LCU(League of Legends Client)
 
