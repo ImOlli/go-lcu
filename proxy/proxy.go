@@ -2,7 +2,7 @@ package proxy
 
 import (
 	"crypto/tls"
-	"go-lcu/lcu"
+	"github.com/ImOlli/go-lcu/lcu"
 	"log"
 	"net/http"
 	"net/http/httputil"
